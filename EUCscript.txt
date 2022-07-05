@@ -1,3 +1,5 @@
+#Full workflow for generating Euclidean Distance (shortest distance) routes from obsidian sources in Idaho. Compatible with ArcGIS Pro software.
+
 "out_distance_accumulation_raster = arcpy.sa.DistanceAccumulation(r""C:\Cota_project\imports.gdb\BearGulch"", None,r""C:\Cota_project\Cota_thesis\DEM_pf.tif"", None, None, ""BINARY 1 -30 30"", None, ""BINARY 1 45"", r""C:\Cota_project\rasters\back_EucBearGulch.tif"", None, None, None, None, None, '', ""PLANAR""); out_distance_accumulation_raster.save(r""C:\Cota_project\rasters\Euc_BearGulch.tif"")"
 
 "out_distance_accumulation_raster = arcpy.sa.DistanceAccumulation(r""C:\Cota_project\imports.gdb\BigSouthernButte"", None,r""C:\Cota_project\Cota_thesis\DEM_pf.tif"", None, None, ""BINARY 1 -30 30"", None, ""BINARY 1 45"", r""C:\Cota_project\rasters\back_EucBigSouthernButte.tif"", None, None, None, None, None, '', ""PLANAR""); out_distance_accumulation_raster.save(r""C:\Cota_project\rasters\Euc_BigSouthernButte.tif"")"
